@@ -1,0 +1,1406 @@
+@media screen and (min-width: 1025px) and (max-width:1440px) {
+  body {
+    margin: 0;
+    padding-top: 120px;
+  }
+
+  .contact-us-header-section {
+    /* border: 2px solid red; */
+    padding: 100px 0;
+    text-align: center;
+    background: url("./home-background-image.jpg");
+    color: white;
+    border-radius: 0 0 202px 202px;
+  }
+
+  #contact-us {
+    font-size: 50px;
+  }
+
+  #home {
+    color: white;
+    text-decoration: none;
+  }
+
+  #home-btn {
+    background: transparent;
+  }
+
+  #home-btn:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  #contact-us-btn {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  /* Contact Us body section */
+
+  .contact-us-body-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-top: 150px;
+    margin-bottom: 0;
+  }
+
+
+  /* Contact Us left body section */
+
+  .contact-us-left-section {
+    /* border: 2px solid red; */
+    background-color: #f7f7f7;
+    height: 570px;
+    padding: 40px 80px;
+    border-radius: 23px;
+    margin-top: 100px;
+  }
+
+  #contact-us2 {
+    color: #ee626b;
+  }
+
+  #say-hello {
+    font-size: 35px;
+    font-weight: 700;
+  }
+
+  #lugx-gaming-template {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  #address-label {
+    margin-bottom: -15px;
+  }
+
+  #actual-address {
+    color: gray;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  #phone-label {
+    margin-bottom: -15px;
+  }
+
+  #phone-number {
+    color: gray;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  #email-label {
+    margin-bottom: -15px;
+  }
+
+  #actual-email {
+    color: gray;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .contact-us-right-section {
+    /* padding-left: 80px; */
+    /* border: 2px solid blue; */
+    margin-left: 60px;
+  }
+
+  #contact-form {
+    /* border: 2px solid red; */
+    padding-top: 50px;
+  }
+
+
+  input {
+    padding: 13px 80px;
+    padding-left: 20px;
+    font-size: 17px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    outline: none;
+  }
+
+  #your-name,
+  #your-email {
+    margin-right: 40px;
+  }
+
+  #textarea {
+    background-color: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    padding: 13px 70px;
+    padding-left: 20px;
+    border-radius: 20px;
+  }
+
+  #send-message-now {
+    font-size: 15px;
+    padding: 15px 25px;
+    border-radius: 23px;
+    color: white;
+    background-color: #ee626b;
+    border: none;
+    cursor: pointer;
+    transition: .20s;
+  }
+
+  #send-message-now:hover {
+    background-color: #206aff;
+  }
+
+  #copyright-section {
+    width: 1439px !important;
+    position: relative;
+    margin-top: -700px !important;
+    left: 0;
+    border-radius: 125px 125px 0 0;
+    /* border: 2px solid red; */
+    margin-right: 0 !important;
+  }
+}
+
+
+/* Laptop */
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+  body {
+    margin: 0;
+    padding-top: 120px;
+  }
+
+  .contact-us-header-section {
+    /* border: 2px solid red; */
+    padding: 100px 0;
+    text-align: center;
+    background: url("./home-background-image.jpg");
+    color: white;
+    border-radius: 0 0 202px 202px;
+    width: 1500px;
+    height: 550px;
+  }
+
+  #contact-us {
+    font-size: 70px !important;
+    padding-top: 60px;
+  }
+
+  .contact-us-header-section p {
+    font-size: 28px;
+  }
+
+  #home {
+    color: white;
+    text-decoration: none;
+  }
+
+  #home-btn {
+    background: transparent;
+  }
+
+  #home-btn:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  #contact-us-btn {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-container {
+    width: 1000px !important;
+  }
+
+  .nav-btns {
+    font-size: 22px !important;
+  }
+
+  /* Contact Us body section */
+
+  .contact-us-body-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-top: 150px;
+    margin-bottom: 0;
+    /* border: 2px solid red; */
+    width: 1500px;
+  }
+
+
+  /* Contact Us left body section */
+
+  .contact-us-left-section {
+    /* border: 2px solid red; */
+    background-color: #f7f7f7;
+    height: 870px !important;
+    padding: 40px 80px;
+    border-radius: 23px;
+    margin-top: 100px;
+  }
+
+  #contact-us2 {
+    color: #ee626b;
+    font-size: 25px;
+  }
+
+  #say-hello {
+    font-size: 55px !important;
+    font-weight: 700;
+  }
+
+  #lugx-gaming-template {
+    font-size: 20px !important;
+    line-height: 1.8 !important;
+    text-align: justify;
+  }
+
+  #address-label {
+    margin-bottom: -15px;
+    font-size: 20px !important;
+  }
+
+  #actual-address {
+    color: gray;
+    font-weight: 500;
+    font-size: 22px !important;
+  }
+
+  #phone-label {
+    margin-bottom: -15px;
+    font-size: 20px !important;
+  }
+
+  #phone-number {
+    color: gray;
+    font-weight: 500;
+    font-size: 22px !important;
+  }
+
+  #email-label {
+    margin-bottom: -15px;
+    font-size: 20px !important;
+  }
+
+  #actual-email {
+    color: gray;
+    font-weight: 500;
+    font-size: 22px !important;
+  }
+
+  .contact-us-right-section {
+    /* padding-left: 80px; */
+    /* border: 2px solid blue; */
+    margin-left: 60px;
+    width: 600px;
+  }
+
+  #location {
+    /* border: 2px solid red !important; */
+    width: 100%;
+    height: 500px;
+    font-size: 150px !important;
+  }
+
+  #contact-form {
+    /* border: 2px solid red; */
+    padding-top: 50px;
+  }
+
+
+  input {
+    padding: 25px 25px !important;
+    padding-left: 20px;
+    font-size: 25px !important;
+    border-radius: 40px !important;
+    border: none;
+    background-color: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    outline: none;
+    width: 270px;
+  }
+
+  #your-name,
+  #your-email {
+    margin-right: 40px;
+  }
+
+  #textarea {
+    background-color: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    padding: 43px 30px !important;
+    padding-left: 20px;
+    border-radius: 40px !important;
+    width: 590px;
+    font-size: 25px;
+  }
+
+  #send-message-now {
+    font-size: 22px !important;
+    padding: 20px 30px !important;
+    border-radius: 50px !important;
+    color: white;
+    background-color: #ee626b;
+    border: none;
+    cursor: pointer;
+    transition: .20s;
+  }
+
+  #send-message-now:hover {
+    background-color: #206aff;
+  }
+
+  #copyright-section {
+    width: 1499px !important;
+    position: relative;
+    margin-top: -700px !important;
+    left: 0;
+    border-radius: 125px 125px 0 0;
+    /* border: 2px solid red; */
+    margin-right: 0 !important;
+  }
+
+  #copyright-section h6 {
+    font-size: 25px;
+  }
+}
+
+/* Tablet */
+
+@media screen and (min-width: 426px) and (max-width:768px) {
+  body {
+    margin: 0;
+    padding-top: 120px;
+  }
+
+  .contact-us-header-section {
+    /* border: 2px solid red; */
+    padding: 100px 0;
+    text-align: center;
+    background: url("./home-background-image.jpg");
+    color: white;
+    border-radius: 0 0 352px 352px !important;
+    width: 1500px;
+    height: 650px;
+  }
+
+  #contact-us {
+    font-size: 90px !important;
+    padding-top: 60px;
+  }
+
+  .contact-us-header-section p {
+    font-size: 33px;
+  }
+
+  #home {
+    color: white;
+    text-decoration: none;
+  }
+
+  #home-btn {
+    background: transparent;
+  }
+
+  #home-btn:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  #contact-us-btn {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-container {
+    width: 1000px !important;
+  }
+
+  .nav-btns {
+    font-size: 30px !important;
+  }
+
+  #lugx-logo {
+    width: 180px;
+  }
+
+  /* Contact Us body section */
+
+  .contact-us-body-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-top: 150px;
+    margin-bottom: 0;
+    /* border: 2px solid red; */
+    width: 1500px;
+  }
+
+
+  /* Contact Us left body section */
+
+  .contact-us-left-section {
+    /* border: 2px solid red; */
+    background-color: #f7f7f7;
+    height: 950px !important;
+    padding: 40px 80px;
+    border-radius: 43px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  #contact-us2 {
+    color: #ee626b;
+    font-size: 30px;
+  }
+
+  #say-hello {
+    font-size: 65px !important;
+    font-weight: 700;
+  }
+
+  #lugx-gaming-template {
+    font-size: 28px !important;
+    line-height: 1.8 !important;
+    text-align: justify;
+  }
+
+  #address-label {
+    margin-bottom: -25px !important;
+    font-size: 25px !important;
+  }
+
+  #actual-address {
+    color: gray;
+    font-weight: 500;
+    font-size: 30px !important;
+  }
+
+  #phone-label {
+    margin-bottom: -15px;
+    font-size: 25px !important;
+  }
+
+  #phone-number {
+    color: gray;
+    font-weight: 500;
+    font-size: 25px !important;
+  }
+
+  #email-label {
+    margin-bottom: -15px;
+    font-size: 25px !important;
+  }
+
+  #actual-email {
+    color: gray;
+    font-weight: 500;
+    font-size: 25px !important;
+  }
+
+  .contact-us-right-section {
+    /* padding-left: 80px; */
+    /* border: 2px solid blue; */
+    margin-left: 0 !important;
+    width: 1300px;
+  }
+
+  #location {
+    /* border: 2px solid red !important; */
+    width: 100%;
+    height: 600px;
+    font-size: 150px !important;
+  }
+
+  #contact-form {
+    /* border: 2px solid red; */
+    padding-top: 50px;
+  }
+
+
+  input {
+    padding: 35px 35px !important;
+    padding-left: 20px;
+    font-size: 35px !important;
+    border-radius: 40px !important;
+    border: none;
+    background-color: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    outline: none;
+    width: 1300px;
+  }
+
+  #your-name,
+  #your-email {
+    margin-right: 40px;
+    margin-bottom: 30px;
+  }
+
+  #textarea {
+    background-color: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    padding: 43px 30px !important;
+    padding-left: 20px;
+    border-radius: 40px !important;
+    width: 1300px;
+    font-size: 30px;
+  }
+
+  #send-message-now {
+    font-size: 26px !important;
+    padding: 30px 50px !important;
+    border-radius: 50px !important;
+    color: white;
+    background-color: #ee626b;
+    border: none;
+    cursor: pointer;
+    transition: .20s;
+    font-weight: 700;
+  }
+
+  #send-message-now:hover {
+    background-color: #206aff;
+  }
+
+  #copyright-section {
+    width: 1499px !important;
+    position: relative;
+    margin-top: -700px !important;
+    left: 0;
+    border-radius: 125px 125px 0 0;
+    /* border: 2px solid red; */
+    margin-right: 0 !important;
+  }
+
+  #copyright-section h6 {
+    font-size: 25px;
+  }
+}
+
+
+/* Mobile L */
+@media screen and (min-width: 376px) and (max-width:426px) {
+  body {
+    margin: 0;
+    padding-top: 120px;
+  }
+
+  nav {
+    /* border: 2px solid black !important; */
+    height: 230px;
+  }
+
+  .navbar-container {
+    display: none !important;
+  }
+
+  #hamburger-menu{
+    margin-left: -50px;
+  }
+
+  #hamburger-menu ul{
+    margin-top: -30px !important;
+  }
+
+  #hamburger-menu ul li{
+    margin-bottom: 50px;
+  }
+
+  .hamburger-btn-container{
+    display: block !important;
+  }
+
+  .hamburger-btn-container{
+    /* border: 2px solid red !important; */
+    position: absolute;
+    width: 1480px !important;
+    text-align: right;
+    z-index: 13 !important;
+    padding-top: 45px !important;
+    margin-top: -100px !important;
+  }
+
+  #hamburger-btn{
+    width: 120px !important;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 180px !important;
+    top: 100px !important;
+  }
+  
+  #close-btn{
+    width: 120px !important;
+    display: none;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 180px !important;
+    top: 100px;
+  }
+
+  #lugx-logo {
+    width: 350px !important;
+    margin-top: 20px;
+  }
+
+  .contact-us-header-section {
+    /* border: 2px solid red; */
+    padding: 300px 0 !important;
+    text-align: center;
+    background: url("./home-background-image.jpg");
+    color: white;
+    border-radius: 0 0 552px 552px !important;
+    width: 1500px;
+    height: 1200px;
+  }
+
+  #contact-us {
+    font-size: 160px !important;
+    padding-top: 60px;
+  }
+
+  .contact-us-header-section p {
+    font-size: 53px;
+  }
+
+  #home {
+    color: white;
+    text-decoration: none;
+  }
+
+  #home-btn {
+    background: transparent;
+  }
+
+  #home-btn:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  #contact-us-btn {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-container {
+    width: 1000px !important;
+  }
+
+  .nav-btns {
+    font-size: 30px !important;
+  }
+
+  #lugx-logo {
+    width: 180px;
+  }
+
+  /* Contact Us body section */
+
+  .contact-us-body-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-top: 150px;
+    margin-bottom: 0;
+    /* border: 2px solid red; */
+    width: 1500px;
+  }
+
+
+  /* Contact Us left body section */
+
+  .contact-us-left-section {
+    /* border: 2px solid red; */
+    background-color: #f7f7f7;
+    height: 1850px !important;
+    padding: 40px 80px;
+    border-radius: 93px !important;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  #contact-us2 {
+    color: #ee626b;
+    font-size: 50px;
+  }
+
+  #say-hello {
+    font-size: 125px !important;
+    font-weight: 700;
+  }
+
+  #lugx-gaming-template {
+    font-size: 50px !important;
+    line-height: 1.8 !important;
+    text-align: justify;
+  }
+
+  #address-label {
+    margin-bottom: -25px !important;
+    font-size: 45px !important;
+  }
+
+  #actual-address {
+    color: gray;
+    font-weight: 500;
+    font-size: 45px !important;
+  }
+
+  #phone-label {
+    margin-bottom: -15px;
+    font-size: 45px !important;
+  }
+
+  #phone-number {
+    color: gray;
+    font-weight: 500;
+    font-size: 45px !important;
+  }
+
+  #email-label {
+    margin-bottom: -15px;
+    font-size: 45px !important;
+  }
+
+  #actual-email {
+    color: gray;
+    font-weight: 500;
+    font-size: 45px !important;
+  }
+
+  .contact-us-right-section {
+    /* padding-left: 80px; */
+    /* border: 2px solid blue; */
+    margin-left: 0 !important;
+    margin-top: 100px;
+    width: 1300px;
+  }
+
+  #location {
+    /* border: 2px solid red !important; */
+    width: 100%;
+    height: 1000px;
+    font-size: 150px !important;
+    border-radius: 75px !important;
+  }
+
+  #contact-form {
+    /* border: 2px solid red; */
+    padding-top: 50px;
+  }
+
+
+  input {
+    padding: 45px 45px !important;
+    padding-left: 20px;
+    font-size: 55px !important;
+    border-radius: 40px !important;
+    border: none;
+    background-color: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    outline: none;
+    width: 1300px;
+  }
+
+  #your-name,
+  #your-email,
+  #your-surname,
+  #subject {
+    margin-right: 40px;
+    margin-bottom: 60px;
+  }
+
+  #textarea {
+    background-color: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    padding: 53px 50px !important;
+    padding-left: 20px;
+    border-radius: 40px !important;
+    width: 1300px;
+    font-size: 60px;
+  }
+
+  #send-message-now {
+    font-size: 46px !important;
+    padding: 40px 60px !important;
+    border-radius: 50px !important;
+    color: white;
+    background-color: #ee626b;
+    border: none;
+    cursor: pointer;
+    transition: .20s;
+    font-weight: 700;
+    margin-bottom: 300px;
+  }
+
+  #send-message-now:hover {
+    background-color: #206aff;
+  }
+
+  #copyright-section {
+    width: 1499px !important;
+    position: relative;
+    margin-top: -700px !important;
+    left: 0;
+    border-radius: 125px 125px 0 0;
+    /* border: 2px solid red; */
+    margin-right: 0 !important;
+    padding: 10px 30px !important;
+  }
+
+  #copyright-section h6 {
+    font-size: 45px;
+  }
+}
+
+/* Mobile M */
+@media screen and (min-width: 321px) and (max-width:376px) {
+  body {
+    margin: 0;
+    padding-top: 120px;
+  }
+
+  nav {
+    /* border: 2px solid black !important; */
+    height: 230px;
+  }
+
+  .navbar-container {
+    display: none !important;
+  }
+
+  #hamburger-menu{
+    margin-left: -50px;
+  }
+
+  #hamburger-menu ul{
+    margin-top: -30px !important;
+  }
+
+  #hamburger-menu ul li{
+    margin-bottom: 50px;
+  }
+
+  .hamburger-btn-container{
+    display: block !important;
+  }
+
+  .hamburger-btn-container{
+    /* border: 2px solid red !important; */
+    position: absolute;
+    width: 1480px !important;
+    text-align: right;
+    z-index: 13 !important;
+    padding-top: 45px !important;
+    margin-top: -100px !important;
+  }
+
+  #hamburger-btn{
+    width: 120px !important;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 180px !important;
+    top: 100px !important;
+  }
+  
+  #close-btn{
+    width: 120px !important;
+    display: none;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 180px !important;
+    top: 100px;
+  }
+
+  #lugx-logo {
+    width: 350px !important;
+    margin-top: 20px;
+  }
+
+  .contact-us-header-section {
+    /* border: 2px solid red; */
+    padding: 300px 0 !important;
+    text-align: center;
+    background: url("./home-background-image.jpg");
+    color: white;
+    border-radius: 0 0 552px 552px !important;
+    width: 1500px;
+    height: 1400px;
+  }
+
+  #contact-us {
+    font-size: 170px !important;
+    padding-top: 60px;
+  }
+
+  .contact-us-header-section p {
+    font-size: 63px;
+  }
+
+  #home {
+    color: white;
+    text-decoration: none;
+  }
+
+  #home-btn {
+    background: transparent;
+  }
+
+  #home-btn:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  #contact-us-btn {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-container {
+    width: 1000px !important;
+  }
+
+  .nav-btns {
+    font-size: 30px !important;
+  }
+
+  #lugx-logo {
+    width: 180px;
+  }
+
+  /* Contact Us body section */
+
+  .contact-us-body-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-top: 150px;
+    margin-bottom: 0;
+    /* border: 2px solid red; */
+    width: 1500px;
+  }
+
+
+  /* Contact Us left body section */
+
+  .contact-us-left-section {
+    /* border: 2px solid red; */
+    background-color: #f7f7f7;
+    height: 2300px !important;
+    padding: 40px 80px;
+    border-radius: 93px !important;
+  }
+
+  #contact-us2 {
+    color: #ee626b;
+    font-size: 60px;
+  }
+
+  #say-hello {
+    font-size: 145px !important;
+    font-weight: 700;
+  }
+
+  #lugx-gaming-template {
+    font-size: 60px !important;
+    line-height: 1.8 !important;
+    text-align: justify;
+  }
+
+  #address-label {
+    margin-bottom: -25px !important;
+    font-size: 55px !important;
+  }
+
+  #actual-address {
+    color: gray;
+    font-weight: 500;
+    font-size: 55px !important;
+  }
+
+  #phone-label {
+    margin-bottom: -15px;
+    font-size: 55px !important;
+  }
+
+  #phone-number {
+    color: gray;
+    font-weight: 500;
+    font-size: 55px !important;
+  }
+
+  #email-label {
+    margin-bottom: -15px;
+    font-size: 55px !important;
+  }
+
+  #actual-email {
+    color: gray;
+    font-weight: 500;
+    font-size: 55px !important;
+  }
+
+  .contact-us-right-section {
+    /* padding-left: 80px; */
+    /* border: 2px solid blue; */
+    margin-left: 0 !important;
+    margin-top: 100px;
+    width: 1300px;
+  }
+
+  #location {
+    /* border: 2px solid red !important; */
+    width: 100%;
+    height: 1000px;
+    font-size: 150px !important;
+    border-radius: 75px !important;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  #contact-form {
+    /* border: 2px solid red; */
+    padding-top: 50px;
+  }
+
+
+  input {
+    padding: 45px 45px !important;
+    padding-left: 20px;
+    font-size: 65px !important;
+    border-radius: 40px !important;
+    border: none;
+    background-color: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    outline: none;
+    width: 1300px;
+  }
+
+  #your-name,
+  #your-email,
+  #your-surname,
+  #subject {
+    margin-right: 40px;
+    margin-bottom: 60px;
+  }
+
+  #textarea {
+    background-color: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    padding: 53px 50px !important;
+    padding-left: 20px;
+    border-radius: 40px !important;
+    width: 1300px;
+    font-size: 60px;
+  }
+
+  #send-message-now {
+    font-size: 56px !important;
+    padding: 70px 80px !important;
+    border-radius: 100px !important;
+    color: white;
+    background-color: #ee626b;
+    border: none;
+    cursor: pointer;
+    transition: .20s;
+    font-weight: 700;
+    margin-bottom: 300px;
+  }
+
+  #send-message-now:hover {
+    background-color: #206aff;
+  }
+
+  #copyright-section {
+    width: 1499px !important;
+    position: relative;
+    margin-top: -700px !important;
+    left: 0;
+    border-radius: 125px 125px 0 0;
+    /* border: 2px solid red; */
+    margin-right: 0 !important;
+    padding: 10px 30px !important;
+  }
+
+  #copyright-section h6 {
+    font-size: 55px;
+  }
+}
+
+/* Mobile S */
+@media screen and (max-width:320px) {
+  body {
+    margin: 0;
+    padding-top: 120px;
+  }
+
+  nav {
+    /* border: 2px solid black !important; */
+    height: 230px;
+  }
+
+  .navbar-container {
+    display: none !important;
+  }
+
+  #hamburger-menu{
+    margin-left: -150px;
+  }
+
+  #hamburger-menu ul{
+    margin-top: -30px !important;
+  }
+
+  #hamburger-menu ul li{
+    margin-bottom: 50px;
+  }
+
+  .hamburger-btn-container{
+    display: block !important;
+  }
+
+  .hamburger-btn-container{
+    /* border: 2px solid red !important; */
+    position: absolute;
+    width: 1380px !important;
+    text-align: right;
+    z-index: 13 !important;
+    padding-top: 45px !important;
+    margin-top: -100px !important;
+  }
+
+  #hamburger-btn{
+    width: 120px !important;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 180px !important;
+    top: 100px !important;
+  }
+  
+  #close-btn{
+    width: 120px !important;
+    display: none;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 180px !important;
+    top: 100px;
+  }
+
+  #lugx-logo {
+    width: 350px !important;
+    margin-top: 20px;
+  }
+
+  .contact-us-header-section {
+    /* border: 2px solid red; */
+    padding: 300px 0 !important;
+    text-align: center;
+    background: url("./home-background-image.jpg");
+    color: white;
+    border-radius: 0 0 552px 552px !important;
+    width: 1280px;
+    height: 1400px;
+  }
+
+  #contact-us {
+    font-size: 170px !important;
+    padding-top: 60px;
+  }
+
+  .contact-us-header-section p {
+    font-size: 63px;
+  }
+
+  #home {
+    color: white;
+    text-decoration: none;
+  }
+
+  #home-btn {
+    background: transparent;
+  }
+
+  #home-btn:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  #contact-us-btn {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-container {
+    width: 1000px !important;
+  }
+
+  .nav-btns {
+    font-size: 30px !important;
+  }
+
+  #lugx-logo {
+    width: 180px;
+  }
+
+  /* Contact Us body section */
+
+  .contact-us-body-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-top: 150px;
+    margin-bottom: 0;
+    /* border: 2px solid red; */
+    width: 1500px;
+  }
+
+
+  /* Contact Us left body section */
+
+  .contact-us-left-section {
+    /* border: 2px solid red; */
+    background-color: #f7f7f7;
+    height: 2600px !important;
+    padding: 40px 80px;
+    border-radius: 93px !important;
+    width: 1080px;
+  }
+
+  #contact-us2 {
+    color: #ee626b;
+    font-size: 60px;
+  }
+
+  #say-hello {
+    font-size: 145px !important;
+    font-weight: 700;
+  }
+
+  #lugx-gaming-template {
+    font-size: 60px !important;
+    line-height: 1.8 !important;
+    text-align: justify;
+  }
+
+  #address-label {
+    margin-bottom: -25px !important;
+    font-size: 55px !important;
+  }
+
+  #actual-address {
+    color: gray;
+    font-weight: 500;
+    font-size: 55px !important;
+  }
+
+  #phone-label {
+    margin-bottom: -15px;
+    font-size: 55px !important;
+  }
+
+  #phone-number {
+    color: gray;
+    font-weight: 500;
+    font-size: 55px !important;
+  }
+
+  #email-label {
+    margin-bottom: -15px;
+    font-size: 55px !important;
+  }
+
+  #actual-email {
+    color: gray;
+    font-weight: 500;
+    font-size: 55px !important;
+  }
+
+  .contact-us-right-section {
+    /* padding-left: 80px; */
+    /* border: 2px solid blue; */
+    margin-left: 0 !important;
+    margin-top: 100px;
+    width: 1300px;
+  }
+
+  #location {
+    /* border: 2px solid red !important; */
+    width: 100%;
+    height: 1000px;
+    font-size: 1150px !important;
+    border-radius: 75px !important;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+
+  .location-container{
+    width: 1080px;
+  }
+
+  #contact-form {
+    /* border: 2px solid red; */
+    padding-top: 50px;
+  }
+
+
+  input {
+    padding: 45px 45px !important;
+    padding-left: 20px;
+    font-size: 65px !important;
+    border-radius: 40px !important;
+    border: none;
+    background-color: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    outline: none;
+    width: 1080px;
+    margin-bottom: 100px !important;
+  }
+
+  #your-name,
+  #your-email,
+  #your-surname,
+  #subject {
+    margin-right: 40px;
+    margin-bottom: 60px;
+  }
+
+  #textarea {
+    background-color: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    padding: 53px 50px !important;
+    padding-left: 20px;
+    border-radius: 40px !important;
+    width: 1080px;
+    font-size: 60px;
+    margin-bottom: 100px;
+  }
+
+  #send-message-now {
+    font-size: 56px !important;
+    padding: 70px 80px !important;
+    border-radius: 100px !important;
+    color: white;
+    background-color: #ee626b;
+    border: none;
+    cursor: pointer;
+    transition: .20s;
+    font-weight: 700;
+    margin-bottom: 300px;
+  }
+
+  #send-message-now:hover {
+    background-color: #206aff;
+  }
+
+  #copyright-section {
+    width: 1280px !important;
+    position: relative;
+    margin-top: -700px !important;
+    left: 0;
+    border-radius: 125px 125px 0 0;
+    /* border: 2px solid red; */
+    margin-right: 0 !important;
+    padding: 10px 30px !important;
+  }
+
+  #copyright-section h6 {
+    font-size: 55px;
+  }
+}

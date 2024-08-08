@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="./lugx-our-shop-container-responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./lugx-product-details.css">
+  <link rel="stylesheet" href="./lugx.css">
+  <link rel="stylesheet" href="./lugx-cotact-us.css">
+  <link rel="stylesheet" href="./lugx-our-shop-container.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our shop</title>
+</head>
+<body>
+  <main>
+    <header>
+
+      <nav id="navbar pull-up">
+        <div class="logo-container">
+          <img src="./lugx-logo.png" alt="Lugx logo" id="lugx-logo">
+        </div>
+
+        <div class="hamburger-btn-container">
+          <img src="./icons8-hamburger-menu-50.png" alt="Hamburger menu icon" id="hamburger-btn"
+            onclick="showHumbergerBtn()">
+
+        </div>
+
+        <div class="hamburger-btn-container">
+          <img src="./icons8-close-50.png" alt="Close button icon" id="close-btn" onclick="hideHumbergerBtn()">
+        </div>
+
+        <div class="navbar-container">
+          <ul>
+            <a href="./index.html" id="home-btn" class="nav-btns">
+              <li>Home</li>
+            </a>
+            <a href="#" class="nav-btns" id="our-shop-btn">
+              <li>Our Shop</li>
+            </a>
+            <a href="./lugx-product-details.html" class="nav-btns" id="product-details-btn">
+              <li>Product Details</li>
+            </a>
+            <a href="./lugx-cotact-us.html" class="nav-btns" id="contact-us-btn">
+              <li>Contact Us</li>
+            </a>
+            <a href="#" class="nav-btns" id="sign-in-btn">
+              <li>SIGN IN</li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+
+
+      <div id="hamburger-menu">
+        <ul>
+          <a href="./index.html">
+            <li>Home</li>
+          </a>
+
+
+          <a href="./lugx-our-shop-container.html">
+            <li>Our Shop</li>
+
+          </a>
+
+          <a href="./lugx-product-details.html">
+
+            <li>Product Details</li>
+
+          </a>
+
+          <a href="./lugx-cotact-us.html">
+
+            <li>Contact Us</li>
+
+          </a>
+
+          <a href="#" id="sign-in-btn-hamburger-menu">
+
+            <li>SIGN IN</li>
+
+          </a>
+
+        </ul>
+
+      </div>
+
+
+    </header>
+
+    <div class="product-details-header-section" id="header">
+      <h1 id="our-shop2">OUR SHOP</h1>
+      <p><a href="./index.html" id="home">Home</a> > Our Shop</p>
+    </div>
+
+    <div class="main-content">
+      <div class="main-content-buttons">
+        <button class="main-btns" id="show-all" onclick="hide1()" onmouseover="colorPink1()">SHOW ALL</button>
+        <button class="main-btns" id="adventure" onclick="hide2()">ADVENTURE</button>
+        <button class="main-btns" id="strategy" onclick="hide3()">STRATEGY</button>
+        <button class="main-btns" id="racing" onclick="hide4()">RACING</button>
+      </div>
+
+      <div class="games-container">
+        <a class="the-link" href="./lugx-product-details.html" style="text-decoration: none; color: black;"  id="trending-games-top-bottom1">
+          <div class="trending-games-top-bottom" onmouseover="changeColor()"
+          onmouseout="changeColor2()">
+            <div class="trending-games-box-top">
+              <img class="game-poster" src="./trending1.jpg" alt="Game poster">
+              <div class="trending-games-box-price">
+                <h5 class="previous-price">$ 36</h5>
+                <h5 class="current-price">$ 24</h5>
+              </div>
+            </div>
+            <div class="trending-games-box-bottom">
+              <p class="action">Action</p>
+              <h5 class="game-name" id="game-name1">Assasin Creed</h5>
+              <span class="fa-container" id="fa-container1">
+                <i id="fa1" class="fa fa-shopping-bag" style="font-size:40px;"></i>
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a class="the-link" href="./lugx-product-details.html" style="text-decoration: none; color: black;" id="trending-games-top-bottom2">
+          <div class="trending-games-top-bottom" onmouseover="changeColor3()"
+            onmouseout="changeColor4()">
+            <div class="trending-games-box-top">
+              <img class="game-poster" src="./trending2.jpg" alt="Game poster">
+              <div class="trending-games-box-price">
+                <h5 class="previous-price">$ 32</h5>
+                <h5 class="current-price">$ 22</h5>
+              </div>
+            </div>
+            <div class="trending-games-box-bottom">
+              <p class="action">Action</p>
+              <h5 class="game-name" id="game-name2">Assasin Creed</h5>
+              <span class="fa-container" id="fa-container2">
+                <i id="fa1" class="fa fa-shopping-bag" style="font-size:40px;"></i>
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a class="the-link" href="./lugx-product-details.html" style="text-decoration: none; color: black;"  id="trending-games-top-bottom3">
+          <div class="trending-games-top-bottom" onmouseover="changeColor5()"
+            onmouseout="changeColor6()">
+            <div class="trending-games-box-top">
+              <img class="game-poster" src="./trending3.jpg" alt="Game poster">
+              <div class="trending-games-box-price">
+                <h5 class="previous-price">$ 45</h5>
+                <h5 class="current-price">$ 30</h5>
+              </div>
+            </div>
+            <div class="trending-games-box-bottom">
+              <p class="action">Action</p>
+              <h5 class="game-name" id="game-name3">Assasin Creed</h5>
+              <span class="fa-container" id="fa-container3">
+                <i id="fa1" class="fa fa-shopping-bag" style="font-size:40px;"></i>
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a class="the-link" href="./lugx-product-details.html" style="text-decoration: none; color: black;" id="trending-games-top-bottom4">
+          <div class="trending-games-top-bottom" onmouseover="changeColor7()"
+            onmouseout="changeColor8()">
+            <div class="trending-games-box-top">
+              <img class="game-poster" src="./trending4.jpg" alt="Game poster">
+              <div class="trending-games-box-price">
+                <h5 class="previous-price">$ 32</h5>
+                <h5 class="current-price">$ 22</h5>
+              </div>
+            </div>
+            <div class="trending-games-box-bottom">
+              <p class="action">Action</p>
+              <h5 class="game-name" id="game-name4">Assasin Creed</h5>
+              <span class="fa-container" id="fa-container4">
+                <i id="fa1" class="fa fa-shopping-bag" style="font-size:40px;"></i>
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a class="the-link" href="./lugx-product-details.html" style="text-decoration: none; color: black;"  id="trending-games-top-bottom5">
+          <div class="trending-games-top-bottom" onmouseover="changeColor9()"
+            onmouseout="changeColor10()">
+            <div class="trending-games-box-top">
+              <img class="game-poster" src="./trending3.jpg" alt="Game poster">
+              <div class="trending-games-box-price">
+                <h5 class="previous-price">$ 38</h5>
+                <h5 class="current-price">$ 26</h5>
+              </div>
+            </div>
+            <div class="trending-games-box-bottom">
+              <p class="action">Action</p>
+              <h5 class="game-name" id="game-name5">Assasin Creed</h5>
+              <span class="fa-container" id="fa-container5">
+                <i id="fa1" class="fa fa-shopping-bag" style="font-size:40px;"></i>
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a class="the-link" href="./lugx-product-details.html" style="text-decoration: none; color: black;"  id="trending-games-top-bottom6">
+          <div class="trending-games-top-bottom" onmouseover="changeColor11()"
+            onmouseout="changeColor12()">
+            <div class="trending-games-box-top">
+              <img class="game-poster" src="./trending1.jpg" alt="Game poster">
+              <div class="trending-games-box-price">
+                <h5 class="previous-price">$ 30</h5>
+                <h5 class="current-price">$ 20</h5>
+              </div>
+            </div>
+            <div class="trending-games-box-bottom">
+              <p class="action">Action</p>
+              <h5 class="game-name" id="game-name6">Assasin Creed</h5>
+              <span class="fa-container" id="fa-container6">
+                <i id="fa1" class="fa fa-shopping-bag" style="font-size:40px;"></i>
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a class="the-link" href="./lugx-product-details.html" style="text-decoration: none; color: black;" id="trending-games-top-bottom7" >
+          <div class="trending-games-top-bottom" onmouseover="changeColor13()"
+            onmouseout="changeColor14()">
+            <div class="trending-games-box-top">
+              <img class="game-poster" src="./trending4.jpg" alt="Game poster">
+              <div class="trending-games-box-price">
+                <h5 class="previous-price">$ 32</h5>
+                <h5 class="current-price">$ 22</h5>
+              </div>
+            </div>
+            <div class="trending-games-box-bottom">
+              <p class="action">Action</p>
+              <h5 class="game-name" id="game-name7">Assasin Creed</h5>
+              <span class="fa-container" id="fa-container7">
+                <i id="fa1" class="fa fa-shopping-bag" style="font-size:40px;"></i>
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a class="the-link" href="./lugx-product-details.html" style="text-decoration: none; color: black;"  id="trending-games-top-bottom8" >
+          <div class="trending-games-top-bottom" onmouseover="changeColor15()"
+            onmouseout="changeColor16()">
+            <div class="trending-games-box-top">
+              <img class="game-poster" src="./trending2.jpg" alt="Game poster">
+              <div class="trending-games-box-price">
+                <h5 class="previous-price">$ 32</h5>
+                <h5 class="current-price">$ 22</h5>
+              </div>
+            </div>
+            <div class="trending-games-box-bottom">
+              <p class="action">Action</p>
+              <h5 class="game-name" id="game-name8">Assasin Creed</h5>
+              <span class="fa-container" id="fa-container8">
+                <i id="fa1" class="fa fa-shopping-bag" style="font-size:40px;"></i>
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a class="the-link" href="./lugx-product-details.html" style="text-decoration: none; color: black;"  id="trending-games-top-bottom9">
+          <div class="trending-games-top-bottom" onmouseover="changeColor17()"
+            onmouseout="changeColor18()">
+            <div class="trending-games-box-top">
+              <img class="game-poster" src="./trending3.jpg" alt="Game poster">
+              <div class="trending-games-box-price">
+                <h5 class="previous-price">$ 28</h5>
+                <h5 class="current-price">$ 20</h5>
+              </div>
+            </div>
+            <div class="trending-games-box-bottom">
+              <p class="action">Action</p>
+              <h5 class="game-name" id="game-name9">Assasin Creed</h5>
+              <span class="fa-container" id="fa-container9">
+                <i id="fa1" class="fa fa-shopping-bag" style="font-size:40px;"></i>
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a class="the-link" href="./lugx-product-details.html" style="text-decoration: none; color: black;"  id="trending-games-top-bottom10">
+          <div class="trending-games-top-bottom" onmouseover="changeColor19()"
+            onmouseout="changeColor20()">
+            <div class="trending-games-box-top">
+              <img class="game-poster" src="./trending4.jpg" alt="Game poster">
+              <div class="trending-games-box-price">
+                <h5 class="previous-price">$ 26</h5>
+                <h5 class="current-price">$ 18</h5>
+              </div>
+            </div>
+            <div class="trending-games-box-bottom">
+              <p class="action">Action</p>
+              <h5 class="game-name" id="game-name10">Assasin Creed</h5>
+              <span class="fa-container" id="fa-container10">
+                <i id="fa1" class="fa fa-shopping-bag" style="font-size:40px;"></i>
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a class="the-link" href="./lugx-product-details.html" style="text-decoration: none; color: black;"  id="trending-games-top-bottom11">
+          <div class="trending-games-top-bottom" onmouseover="changeColor21()"
+            onmouseout="changeColor22()">
+            <div class="trending-games-box-top">
+              <img class="game-poster" src="./trending1.jpg" alt="Game poster">
+              <div class="trending-games-box-price">
+                <h5 class="previous-price">$ 32</h5>
+                <h5 class="current-price">$ 24</h5>
+              </div>
+            </div>
+            <div class="trending-games-box-bottom">
+              <p class="action">Action</p>
+              <h5 class="game-name" id="game-name11">Assasin Creed</h5>
+              <span class="fa-container" id="fa-container11">
+                <i id="fa1" class="fa fa-shopping-bag" style="font-size:40px;"></i>
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a class="the-link" href="./lugx-product-details.html" style="text-decoration: none; color: black;"  id="trending-games-top-bottom12">
+          <div class="trending-games-top-bottom" onmouseover="changeColor23()"
+            onmouseout="changeColor24()">
+            <div class="trending-games-box-top">
+              <img class="game-poster" src="./trending2.jpg" alt="Game poster">
+              <div class="trending-games-box-price">
+                <h5 class="previous-price">$ 45</h5>
+                <h5 class="current-price">$ 30</h5>
+              </div>
+            </div>
+            <div class="trending-games-box-bottom">
+              <p class="action">Action</p>
+              <h5 class="game-name" id="game-name12">Assasin Creed</h5>
+              <span class="fa-container" id="fa-container12">
+                <i id="fa1" class="fa fa-shopping-bag" style="font-size:40px;"></i>
+              </span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="page-btns-container">
+      <a href="">
+        <button class="page-btns" id="left-btn">
+          &lt;
+        </button>
+      </a>
+
+      <a href="#header">
+        <button class="page-btns" id="one-btn">
+          1      
+        </button>
+      </a>
+
+      <a href="#header">
+        <button class="page-btns" id="two-btn">
+          2
+        </button>
+      </a>
+
+      <a href="#header">
+        <button class="page-btns" id="three-btn">
+          3
+        </button>
+      </a>
+
+      <a href="#header">
+        <button class="page-btns" id="right-btn">
+          &gt;
+        </button>
+      </a>
+    </div>
+
+    <div id="copyright-section">
+      <h6>&copy; I am Saleh, I picked this website's design from the internet and then built it myself.</h6>
+    </div>
+  </main>
+  <script src="./lugx-our-shop-container.js"></script>
+  <script src="lugx.js"></script>
+</body>
+</html>

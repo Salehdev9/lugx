@@ -1,0 +1,1223 @@
+@media screen and (min-width: 1025px) and (max-width:1440px){
+  body{
+    overflow-x: hidden;
+  }
+  .product-details-header-section{
+    /* border: 2px solid red !important; */
+    width: 1540px;
+  }
+
+  #product-name{
+    font-size: 50px;
+  }
+  
+  .product-pic-info-container{
+    /* border: 2px solid red; */
+    width: 1300px;
+  }
+  
+  .product-info-container{
+    /* border: 2px solid red; */
+    /* width: 1050px !important; */
+    padding-left: 100px;
+    position: relative;
+    /* left: 100px; */
+  }
+  
+  #past-price{
+    font-size: 20px;
+  }
+  
+  #discount-price{
+    font-size: 27px;
+  }
+  
+  #product-description{
+    font-size: 17px;
+    text-align: justify;
+  }
+
+  .description-reviews{
+    /* border: 2px solid red; */
+    width: 1300px;
+  }
+
+  #description, #reviews{
+    font-size: 23px;
+  }
+
+  .categories-section{
+    /* border: 2px solid red; */
+    width: 1300px;
+  }
+
+  #trending{
+    font-size: 20px;
+  }
+
+  #view-all{
+    margin-right: 5px;
+  }
+
+  .categories-bottom-section{
+    /* border: 2px solid red; */
+    margin-left: 10px;
+  }
+
+  #copyright-section{
+    width: 1545px;
+    margin-right: 0 !important;
+    border-radius: 0 !important;
+    border-radius: 105px 105px 0 0 !important;
+  }
+  
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px){
+  body{
+    overflow-x: hidden;
+  }
+
+  #lugx-logo{
+    transform: scale(1.3);
+  }
+
+
+  .product-details-header-section{
+    /* border: 2px solid red !important; */
+    width: 1540px;
+    height: 550px;
+    padding-top: 180px;
+    margin-bottom: 200px;
+  }
+
+  .navbar-container{
+    /* border: 2px solid black; */
+    width: 1100px;
+    right: 0;
+  }
+
+  .nav-btns{
+    /* border: 2px solid red; */
+    font-size: 25px !important;
+    margin-right: 20px !important;
+  }
+
+  #product-name{
+    font-size: 70px !important;
+  }
+
+  #header p{
+    font-size: 30px !important;
+    /* border: 2px solid red; */
+  }
+  
+  .product-pic-info-container{
+    /* border: 2px solid red; */
+    width: 1300px;
+  }
+  
+  .product-info-container{
+    /* border: 2px solid red; */
+    /* width: 1050px !important; */
+    padding-left: 100px;
+    position: relative;
+    /* left: 100px; */
+  }
+
+  #product-name2{
+    font-size: 40px;
+  }
+  
+  #past-price{
+    font-size: 26px;
+    margin-right: 10px;
+  }
+  
+  #discount-price{
+    font-size: 40px;
+  }
+  
+  #product-description{
+    font-size: 22px;
+    text-align: justify;
+  }
+
+  #cart-inbox{
+    transform: scale(1.5) !important;
+    font-size: 20px !important;
+    margin-right: 20px;
+  }
+
+  #add-cart{
+    font-size: 22px !important;
+    padding: 20px 35px;
+    border-radius: 45px;
+  }
+
+  .game-id-etc{
+    /* border: 2px solid red; */
+    margin-top: 100px;
+  }
+
+  .game-id-etc-left ul li{
+    font-size: 22px !important;
+    margin-bottom: 25px;
+  }
+
+  .game-id-etc-right ul li{
+    font-size: 22px !important;
+    margin-bottom: 25px;
+    margin-left: 25px;
+  }
+
+  .description-reviews{
+    /* border: 2px solid red; */
+    width: 1300px;
+  }
+
+  #description, #reviews{
+    font-size: 32px;
+  }
+
+  #description-reviews-paragraph{
+    font-size: 23px !important;
+    margin-top: 50px;
+  }
+
+  .categories-section{
+    /* border: 2px solid red; */
+    width: 1340px;
+  }
+
+  #trending{
+    font-size: 25px;
+  }
+
+  #trending-games{
+    font-size: 55px;
+  }
+
+  #view-all{
+    margin-right: 55px;
+    margin-top: 15px;
+    font-size: 20px;
+    padding: 25px 45px !important;
+    border-radius: 45px;
+  }
+
+  .category-action h4{
+    font-size: 26px;
+  }
+
+  .categories-bottom-section{
+    /* border: 2px solid red; */
+    margin-left: 10px;
+    margin-bottom: 70px !important;
+  }
+
+  #copyright-section{
+    width: 1545px;
+    margin-right: 0 !important;
+    border-radius: 0 !important;
+    border-radius: 105px 105px 0 0 !important;
+  }
+
+  #copyright-section h6{
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width:768px){
+  body{
+    overflow-x: hidden;
+  }
+
+  #lugx-logo{
+    transform: scale(1.3);
+  }
+
+
+  .product-details-header-section{
+    /* border: 2px solid red !important; */
+    width: 1590px;
+    height: 700px;
+    padding-top: 180px;
+    margin-bottom: 200px;
+    border-radius: 0 0 350px 350px;
+  }
+
+  .navbar-container{
+    /* border: 2px solid black; */
+    width: 1100px;
+    right: 40px !important;
+  }
+
+  .nav-btns{
+    /* border: 2px solid red; */
+    font-size: 30px !important;
+    margin-right: 20px !important;
+  }
+
+  #product-name{
+    font-size: 100px !important;
+  }
+
+  .product-pic-container img{
+    width: 1347px;
+    height: 1400px;
+  }
+
+  #header p{
+    font-size: 35px !important;
+    /* border: 2px solid red; */
+  }
+  
+  .product-pic-info-container{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 1350px;
+  }
+  
+  .product-info-container{
+    /* border: 2px solid red; */
+    /* width: 1050px !important; */
+    padding-left: 0;
+    margin-top: 50px;
+    position: relative;
+    /* left: 100px; */
+  }
+
+  #product-name2{
+    font-size: 60px;
+  }
+  
+  #past-price{
+    font-size: 40px;
+    margin-right: 10px;
+  }
+  
+  #discount-price{
+    font-size: 50px;
+  }
+  
+  #product-description{
+    font-size: 32px;
+    text-align: justify;
+  }
+
+  .fa-shopping-bag{
+    font-size: 35px !important;
+  }
+
+  #cart-inbox{
+    transform: scale(2) !important;
+    font-size: 22px !important;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 80px;
+    width: 70px;
+  }
+
+  #add-cart{
+    font-size: 30px !important;
+    padding: 25px 35px;
+    border-radius: 45px;
+  }
+
+  .game-id-etc{
+    /* border: 2px solid red; */
+    margin-top: 100px;
+  }
+
+  .game-id-etc-left ul li{
+    font-size: 32px !important;
+    margin-bottom: 30px;
+  }
+
+  .game-id-etc-right ul li{
+    font-size: 32px !important;
+    margin-bottom: 30px;
+    margin-left: 25px;
+  }
+
+  .description-reviews{
+    /* border: 2px solid red; */
+    width: 1350px;
+  }
+
+  #description, #reviews{
+    font-size: 36px;
+  }
+
+  #description-reviews-paragraph{
+    font-size: 33px !important;
+    margin-top: 50px;
+    line-height: 2;
+  }
+
+  .categories-section{
+    /* border: 2px solid red; */
+    width: 1340px;
+  }
+
+  #trending{
+    font-size: 30px;
+  }
+
+  #trending-games{
+    font-size: 70px;
+  }
+
+  #view-all{
+    margin-right: 55px;
+    margin-top: 15px;
+    font-size: 20px;
+    padding: 25px 45px !important;
+    border-radius: 45px;
+    display: none;
+  }
+
+  .category-action h4{
+    font-size: 26px;
+  }
+
+  .categories-bottom-section{
+    /* border: 2px solid red; */
+    margin-left: 10px;
+    margin-bottom: 70px !important;
+    display: grid;
+    grid-template-columns: 690px 690px;
+    row-gap: 25px !important;
+  }
+
+  .category{
+    /* border: 2px solid blue; */
+    width: 640px;
+  }
+
+  .category-action{
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .category-action h4{
+    font-size: 40px !important;
+  }
+  
+  .category-poster{
+    height: 700px;
+  }
+
+  #copyright-section{
+    width: 1595px;
+    margin-right: 0 !important;
+    border-radius: 0 !important;
+    border-radius: 105px 105px 0 0 !important;
+  }
+
+  #copyright-section h6{
+    font-size: 35px;
+  }
+}
+
+
+@media screen and (min-width: 376px) and (max-width:426px){
+  body{
+    overflow-x: hidden;
+  }
+
+  #lugx-logo{
+    transform: scale(2.5);
+    /* border: 2px solid red; */
+    position: relative;
+    top: 80px;
+    left: 120px;
+  }
+
+
+  .product-details-header-section{
+    /* border: 2px solid red !important; */
+    width: 1690px;
+    height: 1500px;
+    padding-top: 380px;
+    margin-bottom: 450px;
+    border-radius: 0 0 550px 550px;
+  }
+
+  nav{
+    /* border: 2px solid red !important; */
+    padding: 150px 0;
+  }
+
+  .navbar-container{
+    /* border: 2px solid black; */
+    width: 1100px;
+    right: 40px !important;
+    display: none;
+  }
+
+  .nav-btns{
+    /* border: 2px solid red; */
+    font-size: 30px !important;
+    margin-right: 20px !important;
+  }
+
+  .hamburger-btn-container{
+    display: block !important;
+  }
+
+  .hamburger-btn-container{
+    /* border: 2px solid red !important; */
+    position: absolute;
+    width: 1620px !important;
+    text-align: right;
+    z-index: 13 !important;
+    padding-top: 45px !important;
+    margin-top: -100px !important;
+  }
+
+  #hamburger-btn{
+    width: 120px !important;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 50px;
+  }
+
+  #hamburger-menu li{
+    margin-bottom: 65px;
+    margin-left: 80px !important;
+  }
+  
+  #close-btn{
+    width: 120px !important;
+    display: none;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 35px !important;
+  }
+  
+
+  #product-name{
+    font-size: 180px !important;
+  }
+
+  .product-pic-container img{
+    width: 1450px;
+    height: 1500px;
+  }
+
+  #header p{
+    font-size: 65px !important;
+    /* border: 2px solid red; */
+  }
+  
+  .product-pic-info-container{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 1450px;
+  }
+  
+  .product-info-container{
+    /* border: 2px solid red; */
+    /* width: 1050px !important; */
+    padding-left: 0;
+    margin-top: 50px;
+    position: relative;
+    /* left: 100px; */
+  }
+
+  #product-name2{
+    font-size: 120px;
+  }
+  
+  #past-price{
+    font-size: 70px;
+    margin-right: 20px;
+  }
+  
+  #discount-price{
+    font-size: 100px;
+  }
+  
+  #product-description{
+    font-size: 60px;
+    text-align: justify;
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+
+  .fa-shopping-bag{
+    font-size: 55px !important;
+  }
+
+  #cart-inbox{
+    transform: scale(3.7) !important;
+    font-size: 22px !important;
+    margin-right: 140px;
+    margin-left: 120px;
+    margin-top: 80px;
+    width: 80px;
+  }
+
+  #add-cart{
+    font-size: 60px !important;
+    padding: 55px 65px;
+    border-radius: 105px;
+    margin-right: 20px !important;
+  }
+
+  .game-id-etc{
+    /* border: 2px solid red; */
+    margin-top: 250px;
+  }
+
+  .game-id-etc-left ul li{
+    font-size: 55px !important;
+    margin-bottom: 60px;
+  }
+
+  .game-id-etc-right ul li{
+    font-size: 55px !important;
+    margin-bottom: 60px;
+    margin-left: 50px !important;
+  }
+
+  .description-reviews{
+    /* border: 2px solid red; */
+    width: 1440px;
+  }
+
+  #description, #reviews{
+    font-size: 66px;
+    margin-right: 50px;
+  }
+
+  #reviews{
+    padding-left: 100px;
+  }
+
+  #description-reviews-paragraph{
+    font-size: 53px !important;
+    margin-top: 100px;
+    line-height: 2;
+  }
+
+  .categories-section{
+    /* border: 2px solid red; */
+    width: 1440px;
+  }
+
+  #trending{
+    font-size: 60px;
+  }
+
+  #trending-games{
+    font-size: 120px;
+  }
+
+  #view-all{
+    margin-right: 55px;
+    margin-top: 15px;
+    font-size: 20px;
+    padding: 25px 45px !important;
+    border-radius: 45px;
+    display: none;
+  }
+
+  .category-action h4{
+    font-size: 26px !important;
+  }
+
+  .categories-bottom-section{
+    /* border: 2px solid red; */
+    margin-left: 10px;
+    margin-bottom: 70px !important;
+    display: grid;
+    grid-template-columns: 1190px !important;
+    row-gap: 25px !important;
+  }
+
+  .category{
+    /* border: 2px solid blue; */
+    width: 1445px;
+    margin-bottom: 150px;
+  }
+
+  .category-action{
+    padding-top: 80px;
+    padding-bottom: 200px;
+    border-radius: 65px 65px 0 0;
+  }
+
+  .category-action h4{
+    font-size: 70px !important;
+  }
+  
+  .category-poster{
+    height: 1700px;
+    /* border: 2px solid red; */
+    margin-top: -100px;
+  }
+
+  .category-poster img{
+    border-radius: 120px;
+  }
+
+  #copyright-section{
+    width: 1695px;
+    margin-right: 0 !important;
+    border-radius: 0 !important;
+    border-radius: 105px 105px 0 0 !important;
+    padding: 10px;
+  }
+
+  #copyright-section h6{
+    font-size: 55px;
+  }
+}
+
+
+@media screen and (min-width: 321px) and (max-width:376px){
+  body{
+    overflow-x: hidden;
+  }
+
+  #lugx-logo{
+    transform: scale(2.5);
+    /* border: 2px solid red; */
+    position: relative;
+    top: 80px;
+    left: 120px;
+  }
+
+
+  .product-details-header-section{
+    /* border: 2px solid red !important; */
+    width: 1690px;
+    height: 1500px;
+    padding-top: 380px;
+    margin-bottom: 450px;
+    border-radius: 0 0 550px 550px;
+  }
+
+  nav{
+    /* border: 2px solid red !important; */
+    padding: 150px 0;
+  }
+
+  .navbar-container{
+    /* border: 2px solid black; */
+    width: 1100px;
+    right: 40px !important;
+    display: none;
+  }
+
+  .nav-btns{
+    /* border: 2px solid red; */
+    font-size: 30px !important;
+    margin-right: 20px !important;
+  }
+
+  .hamburger-btn-container{
+    display: block !important;
+  }
+
+  .hamburger-btn-container{
+    /* border: 2px solid red !important; */
+    position: absolute;
+    width: 1420px !important;
+    text-align: right;
+    z-index: 13 !important;
+    padding-top: 45px !important;
+    margin-top: -100px !important;
+  }
+
+  #hamburger-btn{
+    width: 120px !important;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 50px;
+  }
+
+  #hamburger-menu li{
+    margin-bottom: 65px;
+    margin-left: -80px !important;
+  }
+  
+  #close-btn{
+    width: 120px !important;
+    display: none;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 35px !important;
+  }
+
+  #product-name{
+    font-size: 180px !important;
+  }
+
+  .product-details-header-section{
+    width: 1500px;
+    height: 1600px;
+  }
+
+  .product-pic-container img{
+    width: 1260px;
+    height: 1500px;
+    /* border: 2px solid red; */
+    border-radius: 75px;
+  }
+
+  #header p{
+    font-size: 65px !important;
+    /* border: 2px solid red; */
+  }
+  
+  .product-pic-info-container{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 1300px;
+  }
+  
+  .product-info-container{
+    /* border: 2px solid red; */
+    /* width: 1050px !important; */
+    padding-left: 0;
+    margin-top: 50px;
+    position: relative;
+    /* left: 100px; */
+  }
+
+  #product-name2{
+    font-size: 110px;
+  }
+  
+  #past-price{
+    font-size: 70px;
+    margin-right: 20px;
+  }
+  
+  #discount-price{
+    font-size: 100px;
+  }
+  
+  #product-description{
+    font-size: 60px;
+    text-align: justify;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    /* border: 2px solid red; */
+    width: 1250px;
+  }
+
+  .fa-shopping-bag{
+    font-size: 65px !important;
+  }
+
+  #cart-inbox{
+    transform: scale(3.7) !important;
+    font-size: 22px !important;
+    margin-right: 140px;
+    margin-left: 120px;
+    margin-top: 80px;
+    width: 80px;
+  }
+
+  #add-cart{
+    font-size: 60px !important;
+    padding: 55px 65px;
+    border-radius: 105px;
+    margin-right: 20px !important;
+  }
+
+  .game-id-etc{
+    /* border: 2px solid red; */
+    margin-top: 250px;
+  }
+
+  .game-id-etc-left ul li{
+    font-size: 65px !important;
+    margin-bottom: 70px;
+  }
+
+  .game-id-etc-right ul li{
+    font-size: 65px !important;
+    margin-bottom: 70px;
+    margin-left: 50px !important;
+  }
+
+  .description-reviews{
+    /* border: 2px solid red; */
+    width: 1250px;
+    margin-bottom: 250px;
+    border-radius: 75px;
+  }
+
+  #description, #reviews{
+    font-size: 66px;
+    margin-right: 50px;
+  }
+
+  #reviews{
+    padding-left: 100px;
+  }
+
+  #description-reviews-paragraph{
+    font-size: 53px !important;
+    margin-top: 100px;
+    line-height: 2;
+  }
+
+  .categories-section{
+    /* border: 2px solid red; */
+    width: 1440px;
+  }
+
+  #trending{
+    font-size: 60px;
+  }
+
+  #trending-games{
+    font-size: 120px;
+  }
+
+  #view-all{
+    margin-right: 55px;
+    margin-top: 15px;
+    font-size: 20px;
+    padding: 25px 45px !important;
+    border-radius: 45px;
+    display: none;
+  }
+
+  .category-action h4{
+    font-size: 26px !important;
+  }
+
+  .categories-bottom-section{
+    /* border: 2px solid red; */
+    margin-left: 10px;
+    margin-bottom: 70px !important;
+    display: grid;
+    grid-template-columns: 1190px !important;
+    row-gap: 25px !important;
+  }
+
+  .category{
+    /* border: 2px solid blue; */
+    width: 1255px;
+    margin-bottom: 150px;
+  }
+
+  .category-action{
+    padding-top: 80px;
+    padding-bottom: 200px;
+    border-radius: 65px 65px 0 0;
+  }
+
+  .category-action h4{
+    font-size: 70px !important;
+  }
+  
+  .category-poster{
+    height: 1700px;
+    /* border: 2px solid red; */
+    margin-top: -100px;
+  }
+
+  .category-poster img{
+    border-radius: 120px;
+  }
+
+  #copyright-section{
+    width: 1505px;
+    margin-right: 0 !important;
+    border-radius: 0 !important;
+    border-radius: 105px 105px 0 0 !important;
+    padding: 10px;
+  }
+
+  #copyright-section h6{
+    font-size: 45px;
+  }
+}
+
+
+@media screen and (max-width:320px){
+  body{
+    overflow-x: hidden;
+  }
+
+  #lugx-logo{
+    transform: scale(2.5);
+    /* border: 2px solid red; */
+    position: relative;
+    top: 80px;
+    left: 120px;
+  }
+
+
+  .product-details-header-section{
+    /* border: 2px solid red !important; */
+    width: 1690px;
+    height: 1500px;
+    padding-top: 380px;
+    margin-bottom: 450px;
+    border-radius: 0 0 550px 550px;
+  }
+
+  nav{
+    /* border: 2px solid red !important; */
+    padding: 150px 0;
+  }
+
+  .navbar-container{
+    /* border: 2px solid black; */
+    width: 1100px;
+    right: 40px !important;
+    display: none;
+  }
+
+  .nav-btns{
+    /* border: 2px solid red; */
+    font-size: 30px !important;
+    margin-right: 20px !important;
+  }
+
+  .hamburger-btn-container{
+    display: block !important;
+  }
+
+  .hamburger-btn-container{
+    /* border: 2px solid red !important; */
+    position: absolute;
+    width: 1220px !important;
+    text-align: right;
+    z-index: 13 !important;
+    padding-top: 45px !important;
+    margin-top: -100px !important;
+  }
+
+  #hamburger-btn{
+    width: 120px !important;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 50px;
+  }
+
+  #hamburger-menu li{
+    margin-bottom: 65px;
+    margin-left: -300px !important;
+  }
+  
+  #close-btn{
+    width: 120px !important;
+    display: none;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 35px !important;
+  }
+
+  #product-name{
+    font-size: 180px !important;
+  }
+
+  .product-details-header-section{
+    width: 1280px;
+    height: 1600px;
+  }
+
+  .product-pic-container img{
+    width: 1060px;
+    height: 1300px;
+    border-radius: 75px;
+    /* border: 2px solid red; */
+  }
+
+  #header p{
+    font-size: 65px !important;
+    /* border: 2px solid red; */
+  }
+  
+  .product-pic-info-container{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 1300px;
+  }
+  
+  .product-info-container{
+    /* border: 2px solid red; */
+    /* width: 1050px !important; */
+    padding-left: 0;
+    margin-top: 50px;
+    position: relative;
+    /* left: 100px; */
+  }
+
+  #product-name2{
+    font-size: 100px;
+    width: 1000px;
+  }
+  
+  #past-price{
+    font-size: 70px;
+    margin-right: 20px;
+  }
+  
+  #discount-price{
+    font-size: 100px;
+  }
+  
+  #product-description{
+    font-size: 60px;
+    text-align: justify;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    /* border: 2px solid red; */
+    width: 1050px;
+  }
+
+  .fa-shopping-bag{
+    font-size: 65px !important;
+  }
+
+  #cart-inbox{
+    transform: scale(3.7) !important;
+    font-size: 22px !important;
+    margin-right: 140px;
+    margin-left: 120px;
+    margin-top: 80px;
+    width: 80px;
+  }
+
+  #add-cart{
+    font-size: 60px !important;
+    padding: 55px 65px;
+    border-radius: 105px;
+    margin-right: 20px !important;
+  }
+
+  .game-id-etc{
+    /* border: 2px solid red; */
+    margin-top: 250px;
+  }
+
+  .game-id-etc-left ul li{
+    font-size: 65px !important;
+    margin-bottom: 70px;
+  }
+
+  .game-id-etc-right ul li{
+    font-size: 65px !important;
+    margin-bottom: 70px;
+    margin-left: 50px !important;
+  }
+
+  .description-reviews{
+    /* border: 2px solid red; */
+    width: 1050px;
+    margin-bottom: 250px;
+    border-radius: 75px;
+  }
+
+  #description, #reviews{
+    font-size: 60px;
+    margin-right: 50px;
+  }
+
+  #reviews{
+    padding-left: 100px;
+  }
+
+  #description-reviews-paragraph{
+    font-size: 53px !important;
+    margin-top: 100px;
+    line-height: 2;
+  }
+
+  .categories-section{
+    /* border: 2px solid red; */
+    width: 1050px;
+  }
+
+  #trending{
+    font-size: 60px;
+  }
+
+  #trending-games{
+    font-size: 120px;
+  }
+
+  #view-all{
+    margin-right: 55px;
+    margin-top: 15px;
+    font-size: 20px;
+    padding: 25px 45px !important;
+    border-radius: 45px;
+    display: none;
+  }
+
+  .category-action h4{
+    font-size: 26px !important;
+  }
+
+  .categories-bottom-section{
+    /* border: 2px solid red; */
+    margin-left: 10px;
+    margin-bottom: 70px !important;
+    display: grid;
+    grid-template-columns: 1190px !important;
+    row-gap: 25px !important;
+  }
+
+  #trending-games{
+    font-size: 130px;
+  }
+
+  .category{
+    /* border: 2px solid blue; */
+    width: 1055px;
+    margin-bottom: 150px;
+  }
+
+  .category1{
+    margin-top: 50px;
+  }
+
+  .category-action{
+    padding-top: 80px;
+    padding-bottom: 200px;
+    border-radius: 65px 65px 0 0;
+  }
+
+  .category-action h4{
+    font-size: 70px !important;
+  }
+  
+  .category-poster{
+    height: 1200px;
+    /* border: 2px solid red; */
+    margin-top: -100px;
+  }
+
+  .category-poster img{
+    border-radius: 120px;
+  }
+
+  #copyright-section{
+    width: 1285px;
+    margin-right: 0 !important;
+    border-radius: 0 !important;
+    border-radius: 105px 105px 0 0 !important;
+    padding: 10px;
+  }
+
+  #copyright-section h6{
+    font-size: 45px;
+  }
+}

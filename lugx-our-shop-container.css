@@ -1,0 +1,118 @@
+#our-shop-btn{
+  background: rgba(0,0,0,0.1);
+}
+
+#product-details-btn,
+#contact-us-btn{
+  background-color: transparent;
+}
+
+#product-details-btn:hover,
+#contact-us-btn:hover{
+  background-color: rgba(0,0,0,0.1);
+}
+
+#our-shop2{
+  font-size: 49px;
+}
+
+.main-content{
+  /* border: 2px solid red; */
+  margin-top: 100px;
+  padding: 0 120px;
+}
+
+.main-content-buttons{
+  /* border: 2px solid blue; */
+  text-align: center;
+}
+
+.main-btns{
+  margin-left: 20px;
+  background-color: #eee;
+  padding: 9px 20px;
+  border-radius: 23px;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  transition: .20s;
+  font-weight: bold;
+  border: none;
+}
+
+.main-btns:hover{
+  color: #ee626b;
+}
+
+#show-all{
+  background-color: #ee626b;
+  color: white;
+}
+
+.fa{
+  color: white;
+  /* border: 2px solid red; */
+  position: absolute;
+  right: 120px;
+  bottom: 20px;
+  background-color: transparent;
+  padding: 5px 0 0 20px;
+  border-radius: 50%;
+  transform: scale(0.45);
+  transition: .20s;
+  height: 30px;
+}
+
+.fa-container{
+  /* border: 2px solid red; */
+  padding: 20px 20px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #ee626b;
+  top: 100px;
+  right: 40px;
+}
+
+.games-container{
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: 326px 326px 326px 326px;
+  row-gap: 20px;
+  margin-top: 50px;
+}
+
+.trending-games-top-bottom{
+  /* border: 2px solid blue; */
+  margin: 0;
+}
+
+.the-link{
+  /* border: 2px solid black !important; */
+  width: 291px !important;
+  height: 337px;
+  transition: .20s;
+}
+
+.page-btns-container{
+  /* border: 2px solid red; */
+  margin-top: 100px;
+  text-align: center;
+}
+
+.page-btns-container a{
+  text-decoration: none;
+}
+
+.page-btns{
+  border-radius: 50%;
+  padding: 10px 15px;
+  margin-left: 10px;
+  background-color: #eee;
+  border: none;
+  cursor: pointer;
+}
+
+#two-btn{
+  background-color: #0071f8;
+  color: white;
+}

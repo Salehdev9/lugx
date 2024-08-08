@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./lugx.css">
+  <link rel="stylesheet" href="./lugx-product-details.css">
+  <link rel="stylesheet" href="./lugx-product-details-responsiveness.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details</title>
+</head>
+<body>
+  <main>
+    <header>
+      <nav id="navbar pull-up">
+        <div class="logo-container">
+          <img src="./lugx-logo.png" alt="Lugx logo" id="lugx-logo">
+        </div>
+
+        <div class="hamburger-btn-container">
+          <img src="./icons8-hamburger-menu-50.png" alt="Hamburger menu icon" id="hamburger-btn"
+            onclick="showHumbergerBtn()">
+
+        </div>
+
+        <div class="hamburger-btn-container">
+          <img src="./icons8-close-50.png" alt="Close button icon" id="close-btn" onclick="hideHumbergerBtn()">
+        </div>
+
+
+        <div class="navbar-container">
+          <ul>
+            <a href="./lugx.html" id="home-btn" class="nav-btns">
+              <li>Home</li>
+            </a>
+            <a href="./lugx-our-shop-container.html" class="nav-btns">
+              <li>Our Shop</li>
+            </a>
+            <a href="#" class="nav-btns" id="product-details-btn">
+              <li>Product Details</li>
+            </a>
+            <a href="./lugx-cotact-us.html" class="nav-btns" id="contact-us-btn">
+              <li>Contact Us</li>
+            </a>
+            <a href="#" class="nav-btns" id="sign-in-btn">
+              <li>SIGN IN</li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="hamburger-menu">
+        <ul>
+          <a href="./lugx.html">
+            <li>Home</li>
+          </a>
+
+
+          <a href="./lugx-our-shop-container.html">
+            <li>Our Shop</li>
+
+          </a>
+
+          <a href="./lugx-product-details.html">
+
+            <li>Product Details</li>
+
+          </a>
+
+          <a href="./lugx-cotact-us.html">
+
+            <li>Contact Us</li>
+
+          </a>
+
+          <a href="#" id="sign-in-btn-hamburger-menu">
+
+            <li>SIGN IN</li>
+
+          </a>
+
+        </ul>
+
+      </div>
+
+    </header>
+
+    <div class="product-details-header-section" id="header">
+      <h1 id="product-name">MODERN WARFARE<sup style="font-size: 25px;">®</sup> II</h1>
+      <p><a href="./lugx.html" id="home">Home</a> > Shop > Assasin Creed</p>
+    </div>
+
+    <div class="product-details-body-section">
+      <div class="product-pic-info-container">
+        <div class="product-pic-container">
+          <img src="./single-game.jpg" alt="Game poster">
+        </div>
+        <div class="product-info-container">
+          <h2 id="product-name2">Call of Duty®: Modern Warfare® II</h2>
+          <p>
+            <span id="past-price">$28</span> <span id="discount-price">$22</span>
+          </p>
+
+          <p id="product-description">
+            LUGX Gaming Template is based on the latest Bootstrap 5 CSS framework. This template is provided by TemplateMo and it is suitable for your gaming shop ecommerce websites. Feel free to use this for any purpose. Thank you.
+          </p>
+
+          <div id="add-cart-product">
+            <input type="number" id="cart-inbox" placeholder="1" min="1" max="10">
+            <a href="#header" id="add-cart">
+              <i class="fa fa-shopping-bag" style="font-size:28px;"></i>
+              ADD TO CART
+            </a>
+          </div>
+
+          <div class="game-id-etc">
+            <div class="game-id-etc-left">
+              <ul>
+                <li>Game ID:</li>
+                <li>Genre:</li>
+                <li>Multi-tags:</li>
+              </ul>
+            </div>
+
+            <div class="game-id-etc-right">
+              <ul>
+                <li>COD MMII</li>
+                <li>Action, Team, Single</li>
+                <li>War, Battle, Royal</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="description-reviews">
+        <div class="description-reviews-header">
+          <span id="description" onclick="changeContent2()">Description</span> <span id="reviews" onclick="changeContent()">Reviews (3)</span>
+        </div>
+        <div class="description-reviews-body">
+          <p id="description-reviews-paragraph">You can search for more templates on Google Search using keywords such as "templatemo digital marketing", "templatemo one-page", "templatemo gallery", etc. Please tell your friends about our website. If you need a variety of HTML templates, you may visit Tooplate and Too CSS websites. <br><br>
+          
+          Coloring book air plant shabby chic, crucifix normcore raclette cred swag artisan activated charcoal. PBR&B fanny pack pok pok gentrify truffaut kitsch helvetica jean shorts edison bulb poutine next level humblebrag la croix adaptogen. Hashtag poke literally locavore, beard marfa kogi bruh artisan succulents seitan tonx waistcoat chambray taxidermy. Same cred meggings 3 wolf moon lomo irony cray hell of bitters asymmetrical gluten-free art party raw denim chillwave tousled try-hard succulents street art.</p>
+        </div>
+      </div>
+
+      <div class="categories-section">
+        <div class="trending-heading-section">
+          <h5 id="trending">Action</h5>
+          <h2 id="trending-games">Related Games</h2>
+          <button id="view-all">VIEW ALL</button>
+        </div>
+
+        <div class="categories-bottom-section" style="margin-top: 80px;">
+          <div class="categories-container categories-container1">
+            <div class="category category1">
+              <div class="category-action">
+                <h4>Action</h4>
+              </div>
+              <div class="category-poster">
+                <img src="./categories-01.jpg" alt="Category-poster">
+              </div>
+            </div>
+          </div>
+  
+          <div class="categories-container categories-container2">
+            <div class="category category2">
+              <div class="category-action">
+                <h4>Action</h4>
+              </div>
+              <div class="category-poster">
+                <img src="./top-game-01.jpg" alt="Category-poster">
+              </div>
+            </div>
+          </div>
+  
+          <div class="categories-container categories-container3">
+            <div class="category category3">
+              <div class="category-action">
+                <h4>Action</h4>
+              </div>
+              <div class="category-poster">
+                <img src="./trending2.jpg" alt="Category-poster">
+              </div>
+            </div>
+          </div>
+  
+          <div class="categories-container categories-container4">
+            <div class="category category4">
+              <div class="category-action">
+                <h4>Action</h4>
+              </div>
+              <div class="category-poster">
+                <img src="./trending3.jpg" alt="Category-poster">
+              </div>
+            </div>
+          </div>
+  
+          <div class="categories-container categories-container5">
+            <div class="category category5">
+              <div class="category-action">
+                <h4>Action</h4>
+              </div>
+              <div class="category-poster">
+                <img src="./trending1.jpg" alt="Category-poster">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="copyright-section">
+      <h6>&copy; I am Saleh, I picked this website's design from the internet and then built it myself.</h6>
+    </div>
+  </main>
+
+
+  <script src="lugx.js"></script>
+  <script src="./lugx-product-details.js"></script>
+</body>
+</html>
