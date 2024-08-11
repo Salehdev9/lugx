@@ -1690,7 +1690,7 @@
 /* Mobile S */
 @media screen and (max-width: 320px){
   #lugx-logo{
-    width: 420px;
+    width: 120px;
     margin-top: 60px;
     margin-left: -110px !important;
   }
