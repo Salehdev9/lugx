@@ -709,7 +709,7 @@
   .hamburger-btn-container{
     border: 2px solid red !important;
     position: absolute;
-    width: 1080px !important;
+    width: 680px !important;
     text-align: right;
     z-index: 13 !important;
     padding-top: 45px !important;
