@@ -677,10 +677,6 @@
 
 /* Mobile L */
 @media screen and (min-width: 376px) and (max-width: 426px){
-  main{
-    border: 2px solid red;
-    width: 900px;
-  }
   #lugx-logo{
     width: 420px;
     margin-top: 60px;
@@ -693,7 +689,7 @@
 
   .navbar-container{
     /* border: 2px solid white; */
-    width: 1100px !important;
+    width: 500px !important;
     position: relative;
     right: 80px !important;
     margin-top: 20px;
