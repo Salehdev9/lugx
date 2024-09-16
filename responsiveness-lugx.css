@@ -720,7 +720,7 @@
     width: 120px !important;
     /* border: 1px solid red; */
     position: absolute;
-    right: -20px !important;
+    right: 50px !important;
   }
   
   #close-btn{
@@ -728,7 +728,7 @@
     display: none;
     /* border: 1px solid red; */
     position: absolute;
-    right: -20px !important;
+    right: 50px !important;
   }
 
   #welcome-section{
