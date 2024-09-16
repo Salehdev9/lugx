@@ -677,6 +677,9 @@
 
 /* Mobile L */
 @media screen and (min-width: 376px) and (max-width: 426px){
+  main{
+    border: 2px solid red;
+  }
   #lugx-logo{
     width: 420px;
     margin-top: 60px;
