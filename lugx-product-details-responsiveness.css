@@ -439,7 +439,7 @@
 
   .product-details-header-section{
     /* border: 2px solid red !important; */
-    width: 1690px;
+    width: 1490px;
     height: 1500px;
     padding-top: 380px;
     margin-bottom: 450px;
@@ -492,6 +492,9 @@
   #hamburger-menu li{
     margin-bottom: 65px;
     margin-left: 80px !important;
+  }
+
+  #hamburger-btn ul a{
     margin-bottom: 20px;
   }
   
@@ -540,7 +543,8 @@
   }
 
   .product-pic-container img{
-    border-radius: 25px;
+    border-radius: 45px !important;
+    margin-left: -30px;
   }
 
   #product-name2{
@@ -601,8 +605,8 @@
 
   .description-reviews{
     /* border: 2px solid red; */
-    width: 1420px;
-    margin-left: -20px;
+    width: 1400px;
+    margin-left: -30px;
   }
 
   #description, #reviews{
@@ -659,6 +663,7 @@
     /* border: 2px solid blue; */
     width: 1405px;
     margin-bottom: 150px;
+    margin-left: -20px !important;
   }
 
   .category-action{
@@ -682,7 +687,7 @@
   }
 
   #copyright-section{
-    width: 1595px;
+    width: 1495px;
     margin-right: 0 !important;
     border-radius: 0 !important;
     border-radius: 105px 105px 0 0 !important;
