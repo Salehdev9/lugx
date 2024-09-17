@@ -719,12 +719,12 @@
   #hamburger-menu{
     width: 800px;
     margin-left: -100px;
-    border: 2px solid;
+    border: 2px solid transparent;
   }
 
   #hamburger-menu ul a{
     margin-bottom: 20px;
-    border: 2px solid;
+    border: 2px solid transparent;
   }
 
   #hamburger-btn{
