@@ -438,7 +438,7 @@
 
 
   .product-details-header-section{
-    /* border: 2px solid red !important; */
+    border: 2px solid transparent !important;
     width: 1490px;
     height: 1500px;
     padding-top: 380px;
@@ -512,7 +512,7 @@
   }
 
   .product-pic-container img{
-    width: 1450px;
+    width: 1350px;
     height: 1500px;
   }
 
@@ -544,7 +544,7 @@
 
   .product-pic-container img{
     border-radius: 45px !important;
-    margin-left: -30px;
+    margin-left: -40px;
   }
 
   #product-name2{
@@ -687,7 +687,7 @@
   }
 
   #copyright-section{
-    width: 1495px;
+    width: 1515px;
     margin-right: 0 !important;
     border-radius: 0 !important;
     border-radius: 105px 105px 0 0 !important;
@@ -696,7 +696,7 @@
 
   #copyright-section h6{
     font-size: 45px;
-    line-height: 1.2;
+    line-height: 1.4;
   }
 }
 
