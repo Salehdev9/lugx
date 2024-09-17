@@ -716,6 +716,14 @@
     margin-top: -100px !important;
   }
 
+  #hamburger-menu{
+    width: 1400px;
+  }
+
+  #hamburger-menu ul a{
+    margin-bottom: 20px;
+  }
+
   #hamburger-btn{
     width: 120px !important;
     border: 1px solid yellow;
