@@ -747,6 +747,7 @@
     position: absolute !important;
     top: 1900px;
     left: 80px;
+    border: 2px solid red !important;
   }
 
   #game-img{
