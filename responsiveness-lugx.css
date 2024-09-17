@@ -946,7 +946,7 @@
  }
 
  .trending-games-box-bottom{
-  border-radius: 70px !important;
+  border-radius: 0 0 70px 70px !important;
   padding-left: 60px !important;
   padding-bottom: 30px !important;
 
@@ -958,7 +958,7 @@
 
  .most-played-section{
   /* border: 2px solid red; */
-  width: 1700px;
+  width: 1500px;
   margin-top: 5300px !important;
   margin-bottom: 30px !important;
   padding-bottom: 300px !important;
