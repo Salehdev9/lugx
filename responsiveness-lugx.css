@@ -723,6 +723,7 @@
 
   #hamburger-menu ul a{
     margin-bottom: 20px;
+    margin-left: -40px;
     border: 2px solid red;
   }
 
