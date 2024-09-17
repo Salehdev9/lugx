@@ -987,7 +987,7 @@
   /* transform: scale(1.8) !important; */
   margin-left: -100px !important;
   width: 1540px !important;
-  margin-bottom: -130px !important;
+  margin-bottom: -110px !important;
  }
 
  .most-played-games-container{
@@ -1020,7 +1020,7 @@
 
  .explore{
   /* border: 2px solid red !important; */
-  margin-left: 600px !important;
+  margin-left: 500px !important;
   margin-bottom: -50px;
   position: relative;
   font-size: 58px !important;
@@ -1030,7 +1030,7 @@
 
  .categories-section{
   /* border: 3px solid red !important; */
-  width: 1700px !important;
+  width: 1500px !important;
   margin-bottom: 300px;
   margin-top: 200px;
  }
@@ -1062,7 +1062,7 @@
  }
 
  .category{
-  width: 525px !important;
+  width: 325px !important;
   /* border: 2px solid red; */
   margin-bottom: 900px;
   height: 400px !important;
