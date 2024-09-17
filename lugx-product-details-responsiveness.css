@@ -441,7 +441,7 @@
     border: 2px solid transparent !important;
     width: 1490px;
     height: 1500px;
-    padding-top: 380px;
+    padding-top: 540px;
     margin-bottom: 450px;
     border-radius: 0 0 550px 550px;
   }
@@ -508,7 +508,7 @@
   
 
   #product-name{
-    font-size: 100px !important;
+    font-size: 150px !important;
   }
 
   .product-pic-container img{
