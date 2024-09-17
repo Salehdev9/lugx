@@ -788,11 +788,12 @@
     font-size: 110px !important;
     margin-bottom: 80px;
     margin-left: -30px;
+    margin-right: 10px;
   }
 
   #welcome-section-p{
-    font-size: 40px !important;
-    margin-bottom: 150px !important;
+    font-size: 55px !important;
+    margin-bottom: 100px !important;
     margin-top: 190px !important;
     margin-left: -10px;
     width: 90%;
@@ -802,7 +803,7 @@
     width: 100%;
     /* border: 2px solid red; */
     text-align: left;
-    margin-top: 400px !important;
+    margin-top: 200px !important;
 
   }
 
@@ -822,6 +823,9 @@
     border-radius: 100px !important;
   }
 
+  #game-img{
+    width: 80%;
+
   .welcome-boxes-container{
     display: grid !important;
     grid-template-columns: 620px;
@@ -830,7 +834,7 @@
     /* width: 1580px !important; */
     /* margin-left: -30px; */
     padding-top: 80px;
-    margin-left: 100px !important;
+    margin-left: 50px !important;
     margin-bottom: 10px !important;
   }
 
