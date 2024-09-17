@@ -711,12 +711,12 @@
   .trending-games-top-bottom{
     /* border: 2px solid blue; */
     margin: 0;
-    width: 1485px !important;
+    width: 1345px !important;
   }
   
   .the-link{
     /* border: 2px solid black !important; */
-    width: 160px !important;
+    width: 200px !important;
     height: 337px;
     transition: .20s;
   }
