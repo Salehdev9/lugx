@@ -750,7 +750,7 @@
   }
 
   #game-img{
-    width: 1570px;
+    width: 1370px;
     height: 1950px;
     margin-top: 900px !important;
     border-radius: 100px !important;
@@ -823,8 +823,6 @@
     border-radius: 100px !important;
   }
 
-  #game-img{
-    width: 80%;
 
   .welcome-boxes-container{
     display: grid !important;
