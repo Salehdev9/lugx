@@ -464,6 +464,10 @@
     margin-right: 20px !important;
   }
 
+  #hamburger-menu{
+    margin-left: -50px;
+  }
+
   .hamburger-btn-container{
     display: block !important;
   }
@@ -471,7 +475,7 @@
   .hamburger-btn-container{
     /* border: 2px solid red !important; */
     position: absolute;
-    width: 1620px !important;
+    width: 1420px !important;
     text-align: right;
     z-index: 13 !important;
     padding-top: 45px !important;
@@ -488,6 +492,7 @@
   #hamburger-menu li{
     margin-bottom: 65px;
     margin-left: 80px !important;
+    margin-bottom: 20px;
   }
   
   #close-btn{
@@ -500,12 +505,16 @@
   
 
   #product-name{
-    font-size: 180px !important;
+    font-size: 100px !important;
   }
 
   .product-pic-container img{
     width: 1450px;
     height: 1500px;
+  }
+
+  .product-details-header-section{
+    width: 90%;
   }
 
   #header p{
@@ -517,7 +526,8 @@
     display: flex;
     flex-direction: column;
     /* border: 2px solid red; */
-    width: 1450px;
+    width: 1350px;
+    margin-left: -20px;
   }
   
   .product-info-container{
@@ -527,6 +537,10 @@
     margin-top: 50px;
     position: relative;
     /* left: 100px; */
+  }
+
+  .product-pic-container img{
+    border-radius: 25px;
   }
 
   #product-name2{
@@ -587,7 +601,8 @@
 
   .description-reviews{
     /* border: 2px solid red; */
-    width: 1440px;
+    width: 1420px;
+    margin-left: -20px;
   }
 
   #description, #reviews{
@@ -642,7 +657,7 @@
 
   .category{
     /* border: 2px solid blue; */
-    width: 1445px;
+    width: 1405px;
     margin-bottom: 150px;
   }
 
@@ -667,7 +682,7 @@
   }
 
   #copyright-section{
-    width: 1695px;
+    width: 1595px;
     margin-right: 0 !important;
     border-radius: 0 !important;
     border-radius: 105px 105px 0 0 !important;
@@ -675,7 +690,8 @@
   }
 
   #copyright-section h6{
-    font-size: 55px;
+    font-size: 45px;
+    line-height: 1.2;
   }
 }
 
