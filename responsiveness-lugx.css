@@ -1062,7 +1062,7 @@
  }
 
  .category{
-  width: 425px !important;
+  width: 475px !important;
   /* border: 2px solid red; */
   margin-bottom: 900px;
   height: 400px !important;
@@ -1093,7 +1093,7 @@
 
  .our-shop-container{
   /* border: 2px solid red; */
-  width: 1450px !important;
+  width: 1400px !important;
   padding-top: 10px !important;
   margin-left: -50px !important;
  }
@@ -1126,7 +1126,7 @@
  .newsletter-section{
   margin-top: 1900px !important;
   /* border: 2px solid blue !important; */
-  width: 1450px !important;
+  width: 1400px !important;
   position: relative;
   left: 0 !important;
   padding-top: 10px !important;
@@ -1152,7 +1152,7 @@
   /* border: 2px solid red !important; */
   font-size: 60px !important;
   padding: 50px 50px !important;
-  width: 1450px !important;
+  width: 1400px !important;
   border-radius: 60px !important;
  }
 
@@ -1170,7 +1170,7 @@
   position: relative;
   top: 1900px !important;
   margin-top: 2050px !important;
-  width: 1515px !important; 
+  width: 1555px !important; 
  }
 
  #copyright-section h6{
