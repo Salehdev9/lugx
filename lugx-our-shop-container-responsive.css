@@ -649,6 +649,7 @@
   .main-content-buttons{
     /* border: 2px solid blue; */
     text-align: center;
+    margin-left: -50px;
   }
   
   .main-btns{
@@ -711,6 +712,7 @@
   .trending-games-top-bottom{
     /* border: 2px solid blue; */
     margin: 0;
+    margin-left: 50px;
     width: 1345px !important;
   }
   
