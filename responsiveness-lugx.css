@@ -709,7 +709,7 @@
   .hamburger-btn-container{
     border: 2px solid blue !important;
     position: absolute;
-    width: 1000px !important;
+    width: 1200px !important;
     text-align: right;
     z-index: 13 !important;
     padding-top: 45px !important;
@@ -717,7 +717,7 @@
   }
 
   #hamburger-btn{
-    width: 90px !important;
+    width: 120px !important;
     border: 1px solid yellow;
     position: absolute;
     right: 50px !important;
@@ -787,13 +787,15 @@
   #welcome-section-h1{
     font-size: 110px !important;
     margin-bottom: 80px;
-    margin-left: -10px;
+    margin-left: -20px;
   }
 
   #welcome-section-p{
     font-size: 40px !important;
     margin-bottom: 150px !important;
     margin-top: 190px !important;
+    margin-left: -10px;
+    width: 80%;
   }
 
   .search-bar-section{
