@@ -623,7 +623,7 @@
   }
 
   .product-details-header-section{
-    width: 1590px;
+    width: 1490px;
     height: 1500px !important;
     padding-top: 500px !important;
     border-radius: 0 0 400px 400px !important;
@@ -716,7 +716,7 @@
   
   .the-link{
     /* border: 2px solid black !important; */
-    width: 200px !important;
+    width: 160px !important;
     height: 337px;
     transition: .20s;
   }
@@ -812,13 +812,14 @@
   }
 
   #copyright-section{
-    width: 1590px !important;
+    width: 1560px !important;
     margin-left: 4px;
     padding: 20px 50px !important;
   }
 
   #copyright-section h6{
-    font-size: 50px !important;
+    font-size: 45px !important;
+    line-height: 1.3;
   }
 }
 
