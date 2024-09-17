@@ -111,7 +111,7 @@
     transform: scale(1.2) !important;
     /* border: 2px solid red; */
     width: 130px;
-    margin-left: 15px;
+    margin-left: -15px;
     margin-bottom: 35px !important;
     padding: 30px 1px !important;
   }
