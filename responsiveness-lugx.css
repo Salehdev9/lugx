@@ -718,13 +718,11 @@
 
   #hamburger-menu{
     width: 800px;
-    border: 2px solid red;
     margin-left: -100px;
   }
 
   #hamburger-menu ul a{
     margin-bottom: 20px;
-    border: 2px solid red;
   }
 
   #hamburger-btn{
