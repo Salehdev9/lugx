@@ -718,10 +718,12 @@
 
   #hamburger-menu{
     width: 1400px;
+    border: 2px solid red;
   }
 
   #hamburger-menu ul a{
     margin-bottom: 20px;
+    border: 2px solid red;
   }
 
   #hamburger-btn{
