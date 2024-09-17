@@ -729,7 +729,7 @@
 
   #hamburger-btn{
     width: 120px !important;
-    border: 1px solid yellow;
+    border: 1px solid transparent;
     position: absolute;
     right: 50px !important;
   }
@@ -737,7 +737,7 @@
   #close-btn{
     width: 120px !important;
     display: none;
-    border: 1px solid black;
+    border: 1px solid transparent;
     position: absolute;
     right: 50px !important;
   }
