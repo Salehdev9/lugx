@@ -1020,7 +1020,7 @@
 
  .explore{
   /* border: 2px solid red !important; */
-  margin-left: 500px !important;
+  margin-left: 550px !important;
   margin-bottom: -50px;
   position: relative;
   font-size: 58px !important;
@@ -1062,7 +1062,7 @@
  }
 
  .category{
-  width: 325px !important;
+  width: 525px !important;
   /* border: 2px solid red; */
   margin-bottom: 900px;
   height: 400px !important;
