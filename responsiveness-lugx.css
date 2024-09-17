@@ -747,7 +747,6 @@
     position: absolute !important;
     top: 1900px;
     left: 80px;
-    border: 2px solid red !important;
   }
 
   #game-img{
@@ -849,7 +848,7 @@
     width: 170px !important;
     transform: scale(.9) !important;
     /* border: 3px solid red !important; */
-    margin-left: 220px;
+    margin-left: 150px;
   }
 
   .welcome-box-img{
