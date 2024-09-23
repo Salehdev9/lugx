@@ -240,7 +240,7 @@
 
   .product-details-header-section{
     /* border: 2px solid red !important; */
-    width: 1590px;
+    width: 1610px;
     height: 700px;
     padding-top: 180px;
     margin-bottom: 200px;
@@ -278,6 +278,10 @@
     flex-direction: column;
     /* border: 2px solid red; */
     width: 1350px;
+  }
+
+  .product-pic-info-container img{
+    margin-left: 150px;
   }
   
   .product-info-container{
@@ -344,7 +348,7 @@
 
   .description-reviews{
     /* border: 2px solid red; */
-    width: 1350px;
+    width: 1330px;
   }
 
   #description, #reviews{
@@ -385,7 +389,7 @@
 
   .categories-bottom-section{
     /* border: 2px solid red; */
-    margin-left: 10px;
+    margin-left: -10px;
     margin-bottom: 70px !important;
     display: grid;
     grid-template-columns: 690px 690px;
