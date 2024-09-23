@@ -623,7 +623,7 @@
   }
 
   .product-details-header-section{
-    width: 1490px;
+    width: 1505px;
     height: 1500px !important;
     padding-top: 500px !important;
     border-radius: 0 0 400px 400px !important;
@@ -712,7 +712,7 @@
   .trending-games-top-bottom{
     /* border: 2px solid blue; */
     margin: 0;
-    margin-left: 50px;
+    margin-left: 100px;
     width: 1385px !important;
   }
   
