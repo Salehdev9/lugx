@@ -797,7 +797,7 @@
   .welcome-to-lugx{
     font-size: 60px !important;
     font-weight: 500;
-    margin-left: -70px;
+    margin-left: -80px;
   }
 
   #welcome-section-h1{
@@ -848,7 +848,7 @@
     /* width: 1580px !important; */
     /* margin-left: -30px; */
     padding-top: 80px;
-    margin-left: 20px !important;
+    margin-left: 5px !important;
     margin-bottom: 10px !important;
   }
 
@@ -2222,6 +2222,7 @@
   line-height: 1.5;
  }
 }
+
 
 
 
