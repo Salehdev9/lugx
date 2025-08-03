@@ -973,8 +973,8 @@
  }
 
  .most-played-section{
-  /* border: 2px solid red; */
-  width: 1475px;
+  border: 2px solid blue;
+  width: 1455px;
   margin-top: 5300px !important;
   margin-bottom: 30px !important;
   padding-bottom: 300px !important;
@@ -2223,6 +2223,7 @@
   line-height: 1.5;
  }
 }
+
 
 
 
