@@ -803,7 +803,7 @@
   #welcome-section-h1{
     font-size: 110px !important;
     margin-bottom: 80px;
-    margin-left: -110px;
+    margin-left: -95px;
     margin-right: 10px;
   }
 
@@ -811,7 +811,7 @@
     font-size: 55px !important;
     margin-bottom: 100px !important;
     margin-top: 190px !important;
-    margin-left: -5px;
+    margin-left: 5px;
     width: 90%;
   }
 
@@ -974,7 +974,7 @@
 
  .most-played-section{
   /* border: 2px solid red; */
-  width: 1485px;
+  width: 1475px;
   margin-top: 5300px !important;
   margin-bottom: 30px !important;
   padding-bottom: 300px !important;
@@ -2223,6 +2223,7 @@
   line-height: 1.5;
  }
 }
+
 
 
 
